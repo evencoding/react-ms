@@ -1,12 +1,12 @@
-import styled, { keyframes } from "styled-components";
-import Circle from "./Circle";
+import GlobalStyles from "./GlobalStyles";
+import ToDoList from "./components/ToDoList";
 
 function App() {
   return (
-    <div>
-      <Circle bgColor="teal" borderColor="blue" />
-      <Circle bgColor="tomato" text="What the hell" />
-    </div>
+    <>
+      <GlobalStyles />
+      <ToDoList />
+    </>
   );
 }
 
