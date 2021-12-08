@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
         box-sizing:border-box;
     }
     body{
-        background-color: ${(props) => props.theme.bgColor};
+        background:linear-gradient(135deg,#e09,#d0e);
         color: black;
         font-family: 'Source Sans Pro', sans-serif;
     }
